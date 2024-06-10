@@ -7,16 +7,7 @@
  
 }
 
-.container1 h1 {color: #262626;
-font-size: 50px;
 
-}
-
-.container1 p{
-  color: #262626;
-  font-size: 30px;
-
-}
 
 body {
    
@@ -24,27 +15,59 @@ body {
   
       overflow-x: hidden;
     
+      background:url("imgs/TelaFundo2M.png") no-repeat center right;
+    background-size: cover;
+    height: 100vh;
 }
 
 button1 {
-  font-family: "Roboto", sans-serif;
-                   text-transform: uppercase;
-                   outline: 0;
-                   background: #CE2A36;
-                   width: 180px;
-                   height: 30px;
-                   border: 0;
-                   padding: 15px;
-                   color: #FFFFFF;
-                   font-size: 31px;
-                   cursor: pointer;
-                   margin-left: 4%;       
-                   position: absolute;  
-                   margin-top: 33%;
+    font-family: "Roboto", sans-serif;
+                     text-transform: uppercase;
+                     outline: 0;
+                     background: transparent;
+                     width: 100px;
+                     height: 100px;
+                     border: 0;
+                     padding: 15px;
+                     color: #FFFFFF;
+                     font-size: 31px;
+                     cursor: pointer;
+                     margin-left: 43%;       
+                     position: absolute;  
+                     margin-top: 22%;
 
-}
+                     border-radius: 50%;
+                     border: 3px solid #ffffff;
+  
+  }
 
+ 
+  .container1 {
+position: absolute;
+width: 30%;
+margin-left: 61%;
+font-size: 20px;
+margin-top: 20%;
 
+  }
+
+  .container2 {
+    position: absolute;
+    width: 30%;
+    margin-left: 10%;
+    font-size: 20px;
+    margin-top: 21%;
+    
+      }
+  
+  
+ a button1 img {
+
+    width: 95px;
+    
+ }
+
+ 
 a {
  color: #ffffff; 
  text-decoration: none;
@@ -61,10 +84,8 @@ nav a :hover{
 }
 
 .logo img {
-    width: 128px;
+    width: 120px;
   display: flex;
-  margin-left: 15%;
- 
   
   
 }
@@ -91,27 +112,13 @@ nav a img {
 
 main {
 
-    background:url("imgs/Fundo.PNG") no-repeat center right;
-    background-size: 81%;
+    
+    
     height: 90vh;
 
 }
 
-.container1{
-display: absolute;
-margin-top: -40%;
-margin-left: 4%;
 
-
-}
-.container3 p {
-
-  margin-left: 58%;
-  margin-top: 6%;
-  font-size: 35px;
-color: #FFFFFF;
-
-}
 
 .nav-list {
 
@@ -147,97 +154,13 @@ margin: 8px;
 
 }
 
-.container2 {
-margin-top: 2%;
-  background-color: #ffffff;
-  display: flex;
-}
-
-.container3 {
-
-  display: flex;
-  margin-top: 26%;
-  background:url("imgs/Fundo\ 2.PNG") no-repeat center right;
-    background-size: cover;
-    height: 70vh;
-  
-}
-
-.container4 {
-  background:url("imgs/Fundo3.PNG") no-repeat ;
-  display: flex;
-  display: absolute;
-    background-size: cover;
-    height: 84vh;
-}
-
-.container4 h1 {color: #262626;
-  font-size: 50px;
-  position: absolute;
-  margin-top: 6%;
-  margin-left: 4%;
-  }
-  
-  .container4 p{
-    color: #262626;
-    font-size: 25px;
-  margin-top: 13%;
-  margin-left: 4%;
-  position: absolute;
-  }
-
-/* Triângulos */
-
-  #triangulo-para-cima {
-    position: absolute;
-    width: 0; 
-    height: 0; 
-    border-left: 90px solid transparent;
-    border-right: 90px solid transparent;
-    border-bottom: 90px solid #262626;
-    margin-top: 35.5%;
-    margin-left: -90px;
-  }
-
- 
-  #triangulo-para-baixo {
-    position: absolute;
-    width: px; 
-    height: px; 
-    border-left: 90px solid transparent;
-    border-right: 90px solid transparent;
-    border-top: 90px solid #552ACE;
-    margin-left: 10px;
-    margin-top: 35.5%;
-  }
-
-  #triangulo-para-cima2 {
-    position: absolute;
-    width: 0; 
-    height: 0; 
-    border-left: 90px solid transparent;
-    border-right: 90px solid transparent;
-    border-bottom: 90px solid #262626;
-    margin-top: 35.5%;
-    margin-left: 8%;
-  }
-
-  button3 {
-  
-  color: #FFFFFF;
-  position: absolute;
-  margin-top: -67px; 
-  left: -24px;    
-font-size: 20px;
-  }
-
 
 
   footer {
     width: 100%;
     color: var(--color-neutral-40);
     background-color: #262626;
-    margin-top: -0.2%;
+    margin-top: 47%;
 }
 
 footer p {
@@ -373,76 +296,142 @@ footer h3 { color: #FFFFFF;}
 
 
 
-@media (min-width: 1px) and (max-width: 900px) {
+@media  (max-width: 900px) {
     body {
       overflow-x: hidden;
+    
+      background:url("imgs/TelaFundo2mobile.png") no-repeat ;
+      background-size: 100%;
+      
+
+    
+      footer {
+        width: 100%;
+        color: var(--color-neutral-40);
+        background-color: #262626;
+        margin-top: 180%;
+    }
+      
+.container1 p{
+
+ 
+  font-size: 2px;
+}
+
+.container2 p {
+
+  
+  font-size: 2px;
+}
+
+button1 {
+  font-family: "Roboto", sans-serif;
+                   text-transform: uppercase;
+                   outline: 0;
+                   background: transparent;
+                   width: 60px;
+                   height: 60px;
+                   border: 0;
+                   padding: 15px;
+                   color: #FFFFFF;
+                   font-size: 31px;
+                   cursor: pointer;
+                   margin-left: 43%;       
+                   position: absolute;  
+                  
+
+                   border-radius: 50%;
+                   border: 3px solid #ffffff;
+
+}
+
+.botão {
+  margin-top: 47%;
+  margin-left: 20%;
+  
+
+}
+
+a button1 img {
+
+  width: 60px;
+  
+}
+
       main {
 
-        background:url("imgs/FundoM.png") no-repeat right top;
-        background-size: cover;
+        background-size: 10%;
       
-        height: 92vh;
+        height: 100vh;
         
-      
+       
       }
       nav {
 
         margin: 0 -2%;
+        margin-top: -47%;
       }
 
      .container1 h1 {color: #ffffff;
         font-size: 50px;
         margin-left: -2%;
        align-items: center;
-       margin-top: 14%
         }
 
 
-
-      a button1 {
-        position: absolute;
- margin-top: 140%;
- margin-left: 20%;
- margin-right: 16%;
- 
+        button1 {
+ margin-top: 84%;
+ margin-left: 19%;
+ margin-right: 20%;
 
         }
+
+        
         .container1 p {
+          position: absolute;
           color: #ffffff;
-          font-size: 22px;
-          margin-left: -2%;
-          margin-top: 12%;
-          
+          font-size: 15px;
+          margin-left: 50%;
+          margin-top: 350%;
+          width: 140%;
+         
+         
         
         }
 
         .container1{
           display: absolute;
-          margin-top: -170%;
-          margin-left: 4%;
+         
+          margin-left: 35%;
           
          
           }
 
-
-        
-      .container2 {
-        margin-top: -106%;
-          background-color: #ffffff;
-          display: flex;
-        }
-
-        .container2 p {
-          margin-top: -106%;
-            background-color: #ffffff;
-            display: flex;
+          
+          .container2 p {
+            color: #ffffff;
+            font-size: 15px;
+            margin-left: 5%;
+            width: 130%;
+            
+           
+           
+            
+          
           }
   
+        
+      .container2 {
+        display: absolute;
+        margin-top: 20%;
+        margin-left: 4%;
+        
+        }
 
         .container3 {
 
           display: flex;
-          margin-top: 70%;
+          margin-top: 90%;
           background:url("imgs/Fundo\ 2M.PNG") no-repeat left;
             background-size: cover;
             height: 60vh;
@@ -452,66 +441,10 @@ footer h3 { color: #FFFFFF;}
         .container3 p {
 
           font-size: 26px;
-          margin-left: 4%;
-          margin-top: 12%;
+          margin-left: 1%;
+          margin-top: 30%;
         }
-        .container4 {
-margin-top: -2%;
-          background:url("imgs/Tela1Fundo3MTelaFundo2M.png") no-repeat ;
-        }
-
-
-        .container4 h1 {
-          color: #FFFFFF;
-          font-size: 45px;
-        }
-        .container4 p {
-margin-top: 30%;
-font-size: 24px;
-color: #FFFFFF;
-
     }
-
-
-/* Triângulos */
-
-
-
-
-#triangulo-para-baixo {
-  position: absolute;
-  width: px; 
-  height: px; 
-  border-left: 70px solid transparent;
-  border-right: 70px solid transparent;
-  border-top: 70px solid #552ACE;
-  margin-left: 50%;
-  margin-top: 145%;
-}
-
-
-#triangulo-para-cima2 {
-  position: absolute;
-  width: 0; 
-  height: 0; 
-  border-left: 90px solid transparent;
-  border-right: 90px solid transparent;
-  border-bottom: 90px solid transparent;
-  margin-top: 35.5%;
-  margin-left: 8%;
-}
-#triangulo-para-cima {
-  position: absolute;
-  width: 0; 
-  height: 0; 
-  border-left: 90px solid transparent;
-  border-right: 90px solid transparent;
-  border-bottom: 90px solid transparent;
-  margin-top: 35.5%;
-  margin-left: 8%;
-}
-
-
     .nav-list {
       position: absolute;
       top: 8vh;
@@ -574,6 +507,6 @@ color: #FFFFFF;
   gap: 2rem;
 }
 
+
  
 
-}

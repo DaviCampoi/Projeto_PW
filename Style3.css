@@ -1,0 +1,571 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
+@import "compass/css3";
+* {
+
+ margin: 0;
+ padding: 0;
+ 
+ 
+}
+
+
+
+body {
+   
+    font-family: "Oswald", sans-serif;
+      overflow-x: hidden;
+      height: 100%; 
+
+/* TESTE TESTE TESTE */
+
+.light-mode { background:url("imgs/FundoTela3.png") no-repeat center  top ;
+    background-size: cover;
+    height: 230vh;
+    
+  }
+
+    
+  #toggleDiv {
+    padding: 60px;
+    transition: background-image 0.5s, color 0.5s;
+}
+
+.sla button{
+  font-family: "Oswald", sans-serif;
+  
+
+  background-color: transparent; /* Green */
+  border: none;
+  color: white;
+ position: absolute;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+margin-top: 5%;
+  margin-left: 87%;
+}
+
+
+
+
+.light-mode h1 {
+  
+  margin-left: -2%;
+  margin-top: 12%;
+}
+
+.light-mode p {
+margin-top: 2%;
+margin-left: -2%;
+font-size: 18px;
+
+
+}
+
+
+
+.dark-mode h1 {
+  
+  margin-left: -2%;
+  margin-top: 12%;
+}
+
+.dark-mode p {
+margin-top: 2%;
+margin-left: -2%;
+font-size: 18px;
+
+
+}
+
+.div2 h1{position: absolute;
+margin-top: 2%;
+
+}
+
+.parte2 {
+
+  position: absolute;
+  margin-top: 16%;
+  margin-left: 51%;
+}
+
+.parte2 h1{
+
+  margin-top: 1%;
+}
+
+
+
+#toggleButton:hover{
+
+ 
+
+    
+  color: #CE2A36; 
+     
+  transition: 0.5s;
+}
+
+.alternate-hover p:hover {
+  color: #2bff00; 
+     
+  transition: 0.5s;
+}
+
+
+.light-mode {
+   
+    color: rgb(255, 255, 255);
+}
+
+.dark-mode {
+    background-image: url(imgs/FundoTela4.png);
+    color: white;
+    background-size: cover;
+    height: 230vh;
+
+    
+    
+}
+
+  
+
+
+
+  /* teste teste teste */
+
+a {
+ color: #ffffff; 
+ text-decoration: none;
+
+
+}
+
+nav a :hover{
+
+    
+    color: #CE2A36; 
+       
+    transition: 0.5s;
+}
+
+.logo img {
+    width: 120px;
+  display: flex;
+  
+  
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background:#262626;
+    height: 8vh;
+    margin: 0 -25%;
+    
+}
+
+nav a img {
+
+   
+   margin-left: -60vh;
+    width: auto;
+    margin-right: var(--theme-spacing-inline-sm);
+}
+
+
+main {
+
+    
+    
+    height: 90vh;
+
+}
+
+
+
+.nav-list {
+
+list-style: none;
+display: flex;
+
+
+
+}
+
+.nav-list li {
+    
+font-size: 23px;
+    letter-spacing: 3px;
+    margin-left: 32px;
+   
+   
+    
+}
+
+
+.mobile-menu
+{
+    display: none;
+    cursor: pointer;
+}
+.mobile-menu div {
+
+width: 32px;
+height: 2px;
+background:#CE2A36;
+margin: 8px;
+
+}
+
+
+
+  footer {
+    width: 100%;
+    color: var(--color-neutral-40);
+    background-color: #262626;
+    margin-top: -0.2%;
+}
+
+footer p {
+
+  color: #FFFFFF;
+}
+
+footer h1 { color: #FFFFFF;}
+footer h3 { color: #FFFFFF;}
+
+
+
+.footer-link {
+    text-decoration: none;
+}
+
+#footer_content {
+    background-color: var(--color-neutral-10);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 3rem 3.5rem;
+}
+
+#footer_contacts h1 {
+    margin-bottom: 0.75rem;
+}
+
+#footer_social_media {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+} 
+
+#footer_social_media .footer-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    color: var(--color-neutral-40);
+    border-radius: 50%;
+    transition: all 0.4s;
+}
+
+#footer_social_media .footer-link i {
+    font-size: 1.25rem;    
+}
+
+#footer_social_media .footer-link:hover {
+    opacity: 0.8;
+}
+
+#instagram {
+    background-color: #552ACE;
+}
+
+#facebook {
+    background-color:#552ACE;
+}
+
+#whatsapp {
+  
+    background: #552ACE;
+   
+  
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    list-style: none;
+}
+
+.footer-list .footer-link {
+    color: var(--color-neutral-30);
+    transition: all 0.4s;
+}
+
+.footer-list .footer-link:hover {
+    color: #552ACE;
+}
+
+#footer_subscribe {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+#footer_subscribe p {
+    color: #FFFFFF;
+}
+
+#input_group {
+    display: flex;
+    align-items: center;
+    background-color: var(--color-neutral-0);
+    border-radius: 4px;
+}
+
+#input_group input {
+    all: unset;
+    padding: 0.75rem;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 2%;
+}
+
+#input_group button {
+    background-color: #552ACE;
+    border: none;
+    color: var(--color-neutral-40);
+    padding: 0px 1.25rem;
+    font-size: 1.125rem;
+    height: 100%;
+    border-radius: 0px 4px 4px 0px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+#input_group button:hover {
+    opacity: 0.8;
+}
+
+#footer_copyright {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-neutral-0);
+    font-size: 0.9rem;
+    padding: 1.5rem;
+    font-weight: 100;
+}
+
+
+
+@media (min-width: 1px) and (max-width: 900px) {
+  body {
+      overflow-x: hidden;
+  }
+
+  main {
+      background: url("imgs/FundoM.png") no-repeat right top;
+      background-size: cover;
+      height: 92vh;
+  }
+.sla{
+
+  margin-left: 75%;
+  margin-top: 20%;
+  position: absolute;
+  
+}
+.div2 h1{position: absolute;
+  margin-top: -13%;
+  margin-left: -12%;
+  font-size: 29px;
+  
+  }
+.light-mode a {
+
+  margin: 2%;
+}
+
+  .light-mode a h1 {
+    margin-top: 3%;
+    margin-left: -15%;
+    font-size: 20px;
+    
+    
+    
+    }
+
+  .light-mode p {
+    margin-top: 2%;
+    margin-left: -15%;
+    font-size: 18px;
+    
+    
+    }
+
+    .dark-mode a {
+
+      margin: 2%;
+    }
+    
+      .dark-mode a h1 {
+        margin-top: 3%;
+        margin-left: -15%;
+        font-size: 20px;
+        
+        
+        
+        }
+    
+      .dark-mode p {
+        margin-top: 2%;
+        margin-left: -15%;
+        font-size: 18px;
+        
+        
+        }
+    .dark-mode {
+      background-image: url(imgs/FundoTela4V.png);
+      color: white;
+      background-size: cover;
+      height: 230vh;
+  
+    }
+.dark-mode .parte2 {
+
+  margin-left: -1%;
+}
+
+    .parte2 {
+
+      margin-left: 20%;
+      margin-top: 30%;
+    }
+
+    
+
+  nav a p {
+      color: #FFFFFF;
+  }
+
+  nav {
+      margin: 0 -2%;
+  }
+
+  .container1 h1 {
+      color: #ffffff;
+      font-size: 50px;
+      margin-left: -2%;
+      align-items: center;
+  }
+
+  button1 {
+      margin-top: 20%;
+      margin-left: 15%;
+      margin-right: 18;
+  }
+
+  .container1 p {
+      color: #ffffff;
+      font-size: 22px;
+      margin-left: -2%;
+  }
+
+  .container1 {
+      display: absolute;
+      margin-top: -160%;
+      margin-left: 4%;
+  }
+
+  .container2 {
+      margin-top: -106%;
+      background-color: #ffffff;
+      display: flex;
+  }
+
+  .container3 {
+      display: flex;
+      margin-top: 90%;
+      background: url("imgs/Fundo 2M.PNG") no-repeat left;
+      background-size: cover;
+      height: 60vh;
+  }
+
+  .container3 p {
+      font-size: 26px;
+      margin-left: 1%;
+      margin-top: 30%;
+  }
+
+  .nav-list {
+      position: absolute;
+      top: 8vh;
+      right: 0;
+      width: 55vw;
+      height: 92vh;
+      background: #262626;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      transform: translateX(100%);
+      transition: transform 0.3s ease-in, opacity 0.3s ease-in; /* Adicionando transição de opacidade */
+  }
+
+  .nav-list.active {
+      transform: translateX(0);
+      opacity: 1; /* Garantindo visibilidade quando ativo */
+  }
+
+  .nav-list li a p {
+      color: #ffffff;
+  }
+
+  .nav-list li {
+      margin-left: 0;
+      opacity: 1; /* Garantindo visibilidade dos itens */
+  }
+
+  .mobile-menu {
+      display: block;
+      margin-left: 20vh;
+  }
+}
+
+@keyframes navLinkFade {
+  from {
+      opacity: 0;
+      transform: translateX(50px);
+  }
+  to {
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
+
+.mobile-menu.active .line1 {
+  transform: rotate(-45deg) translate(-8px, 8px);
+}
+
+.mobile-menu.active .line2 {
+  opacity: 0;
+}
+
+.mobile-menu.active .line3 {
+  transform: rotate(45deg) translate(-5px, -7px);
+}
+
+nav a img {
+  margin-left: 1vh;
+}
+
+#footer_content {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+}
